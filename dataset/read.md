@@ -17,13 +17,14 @@ The task has been divided into three subtasks: Subtask A, Subtask B and Subtask 
 The goal is to classify the relevance of the data pair into Bad (0), Good (2) or Potentially Useful (1) class i.e., classify corresponding data pair like (x, y) into a class label which depicts the relevance of the pair. 
  
 Subtask A	: (Related Question, Answer)	i.e., 1 relatedQuestion - 10 answers
+
 Subtask B	: (Original Question, Related Question)	i.e., 1 originalQuestion - 10 relatedQuestions
+
 Subtask C	: (Original Question, Answer)	i.e., 1 originalQuestion - 100 answers
 
 
 ## Present data format
-For three subtasks A, B, C:
-- There are three files each (train, test, validation) for the cleaned data. This has all information needed only as per the Tasks.
+For three subtasks A, B, C: There are three files each (train, test, validation) which is the cleaned data. This has all information needed only as per the Tasks. From these data files, additional files will be made only with relevant columns to analyse text (along with their label).
   
  
 
