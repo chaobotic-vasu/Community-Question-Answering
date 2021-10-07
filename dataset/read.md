@@ -6,8 +6,9 @@ The IR part i.e., the retrieval of CQA knowledge base already carried out by Sem
 
 The dataset contains about 200 Original questions. Each Original Question Oq has been given 10 related Questions, and these 10 related questions have 10 answers each respectively. As Each of these combinations come with its respective Relevance label.  
 
-However, since the labels of Questions to Answers and Question to Questions had different names in the dataset, they have been renamed as such for classification task:
-  Bad (0), Good (2) or Potentially Useful (1) 
+However, since the labels of Questions to Answers and Question to Questions had different names in the dataset, they have been renamed as such for classification task
+
+  Good (2), Bad (0), Potentially Useful (1) 
   
   AND 
   
