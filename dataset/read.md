@@ -4,10 +4,14 @@ https://alt.qcri.org/semeval2017/task3/index.php?id=data-and-tools
 ## Dataset Description
 The IR part i.e., the retrieval of CQA knowledge base already carried out by SemEval. It provided Qatar Living Forum’s dataset training data for English and Arabic languages. Qatar living forum is an open-domain forum for people to pose questions from multiple aspects of their daily life. Provided by SemEval 2016 in this collection, the threads are independent of each other and the lists of comments are chronologically sorted and contain additional information (e.g., date, user, topic, etc.) 
 
-The dataset contains about 200 Original questions. Each Original Question Oq has been given 10 related Questions, and these 10 related questions have 10 answers each respectively.
-As Each of these combinations come with its respective retrieved Relevance label.  
+The dataset contains about 200 Original questions. Each Original Question Oq has been given 10 related Questions, and these 10 related questions have 10 answers each respectively. As Each of these combinations come with its respective Relevance label.  
+
 However, since the labels of Questions to Answers and Question to Questions had different names in the dataset, they have been renamed as such for classification task:
-  Bad (0), Good (2) or Potentially Useful (1) AND Perfect Match	(2), Irrelevant	(0), Relevant	(1)
+  Bad (0), Good (2) or Potentially Useful (1) 
+  
+  AND 
+  
+  Perfect Match	(2), Irrelevant	(0), Relevant	(1)
 
   
   
